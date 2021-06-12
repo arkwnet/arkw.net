@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,table {
+	font-family: Noto Sans JP, "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",メイリオ,Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+a {
+	color: #3f51b5;
+}
+
+h3 {
+	margin: 10px 0;
+	margin-top: 16px;
+	font-size: 16px;
+	font-weight: normal;
+	border-bottom: solid 2px #3f51b5;
+}
+
+.fonts-list,.fonts-list td {
+	border: solid 1px #757575;
+	border-collapse: collapse;
+}
+
+.fonts-list td {
+	padding: 2px 8px;
+	white-space: nowrap;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: auto;
+}
+
+.header {
+	margin-top: -5px;
+	color: #ffffff;
+	background-color: #3f51b5;
+	overflow: hidden;
+}
+
+.header-logo {
+	padding: 40px 0;
+	text-align: center;
+}
+
+.header-logo img {
+	width: 60%;
+}
+
+.header-img {
+	width: 100%;
+}
+
+.header-img-half {
+	width: 50%;
+	text-align: center;
+}
+
+.header-left {
+	display: none;
+}
+
+.header-right {
+	margin: 14px;
+	padding: 8px 14px;
+	text-shadow: 0 0 2px #000000;
+}
+
+.header-right h1 {
+	margin-top: 14px;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 40px;
+}
+
+.header-right h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 22px;
+}
+
+.contents {
+	margin: 20px 0;
+	padding: 4px;
+	line-height: 24px;
+	overflow: hidden;
+}
+
+.contents-left {
+	width: 650px;
+	float: left;
+}
+
+.contents-right {
+	width: 290px;
+	float: right;
+	padding: 14px;
+	box-shadow: 0 0 2px #000000;
+}
+
+.software-box {
+	margin: 20px 0;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.software-box-left {
+	width: 220px;
+	float: left;
+}
+
+.software-box-left img {
+	width: 100%;
+}
+
+.software-box-right {
+	width: 400px;
+	float: right;
+}
+
+.footer {
+	padding: 8px 4px;
+	border-top: solid 1px #3f51b5;
+}
+
+.wrapper-ad {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.wrapper-ad h1 {
+	margin: 10px 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.menu-main li {
+	list-style-type: none;
+}
+
+.list-item {
+	margin-left: 16px;
+}
+
+.list-item-box li {
+	margin-left: 32px;
+}
+
+@media screen and ( max-width: 1020px ){
+	.wrapper,.contents {
+		width: 100%;
+	}
+	.contents-left,.contents-right {
+		width: 98%;
+		margin: auto;
+	}
+}
