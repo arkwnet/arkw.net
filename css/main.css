@@ -139,8 +139,8 @@ p, .main_right th, .main_right td {
 }
 
 .main_skill {
-	padding-right: 8px;
-	padding-bottom: 1px;
+	padding-right: 7px;
+	padding-bottom: 2px;
 }
 
 
@@ -241,6 +241,82 @@ p, .main_right th, .main_right td {
 
 #pr_item_web, #pr_item_dev {
 	display: none;
+}
+
+
+/* Works */
+
+.works {
+	margin: 10px 0;
+	margin-left: 2px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.works-box {
+	width: 341px;
+	height: 80px;
+	margin-left: 2px;
+	margin-right: 5px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	position: relative;
+	background-color: #3F51B5;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px #757575;
+	float: left;
+}
+
+.works-box-text {
+	width: 341px;
+	height: 80px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #FFFFFF;
+	border-radius: 5px;
+	text-shadow: 0 0 2px #000000;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.works-box-text:hover {
+	opacity: 1;
+}
+
+.works-box-text h1 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.works-box-text h2 {
+	position: absolute;
+	left: 10px;
+	top: 2px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.works-box-inside {
+	position: absolute;
+	left: 10px;
+	top: 55px;
+	overflow: hidden;
+}
+
+.works-box-inside div {
+	margin-right: 6px;
+	padding: 0 6px;
+	padding-bottom: 1px;
+	border-radius: 10px;
+	font-size: 10px;
+	float: left;
 }
 
 
