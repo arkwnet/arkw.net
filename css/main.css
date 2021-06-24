@@ -283,7 +283,7 @@ p, .main_right th, .main_right td {
 	transition-timing-function: ease-in-out;
 }
 
-.works-box-text:hover {
+.works a:hover, .works-box-text:hover {
 	opacity: 1;
 }
 
