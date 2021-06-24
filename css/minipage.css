@@ -21,18 +21,8 @@ h3 {
 	border-bottom: solid 2px #3f51b5;
 }
 
-.fonts-list,.fonts-list td {
-	border: solid 1px #757575;
-	border-collapse: collapse;
-}
-
-.fonts-list td {
-	padding: 2px 8px;
-	white-space: nowrap;
-}
-
 .wrapper {
-	width: 1000px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -93,41 +83,20 @@ h3 {
 	overflow: hidden;
 }
 
-.contents-left {
-	width: 650px;
-	float: left;
+.contents-history {
+	padding: 20px;
+	box-sizing: border-box;
 }
 
-.contents-right {
-	width: 290px;
-	float: right;
-	padding: 14px;
-	box-shadow: 0 0 2px #000000;
-}
-
-.software-box {
-	margin: 20px 0;
-	margin-bottom: 50px;
-	overflow: hidden;
-}
-
-.software-box-left {
-	width: 220px;
-	float: left;
-}
-
-.software-box-left img {
-	width: 100%;
-}
-
-.software-box-right {
-	width: 400px;
-	float: right;
+.contents-history p {
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
 .footer {
-	padding: 8px 4px;
+	padding: 20px;
 	border-top: solid 1px #3f51b5;
+	box-sizing: border-box;
 }
 
 .wrapper-ad {
@@ -139,26 +108,4 @@ h3 {
 	margin: 10px 0;
 	font-size: 14px;
 	font-weight: bold;
-}
-
-.menu-main li {
-	list-style-type: none;
-}
-
-.list-item {
-	margin-left: 16px;
-}
-
-.list-item-box li {
-	margin-left: 32px;
-}
-
-@media screen and ( max-width: 1020px ){
-	.wrapper,.contents {
-		width: 100%;
-	}
-	.contents-left,.contents-right {
-		width: 98%;
-		margin: auto;
-	}
 }
