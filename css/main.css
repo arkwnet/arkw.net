@@ -380,3 +380,20 @@ p, .main_right th, .main_right td {
 		margin-bottom: 10px;
 	}
 }
+
+@media screen and ( max-width: 755px ){
+	.works {
+		height: 300px;
+		overflow-y: scroll;
+	}
+
+	.works-box {
+		width: 99%;
+		background-size: cover;
+	}
+
+	.works-box-text {
+		width: 100%;
+		opacity: 1;
+	}
+}
