@@ -1,0 +1,50 @@
+// For Mobile Devices
+
+@media screen and ( max-width: 1280px ){
+	.navi {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 20px;
+	}
+}
+
+@media screen and ( max-width: 1240px ){
+	.wrapper {
+		width: 100%;
+	}
+	
+	.header, .footer {
+		padding-left: 20px;
+	}
+	
+	.main, .main_left, .main_right {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 30px;
+	}
+	
+	.main_right {
+		float: left;
+	}
+
+	.topics {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and ( max-width: 755px ){
+	.works {
+		height: 300px;
+		overflow-y: scroll;
+	}
+
+	.works-box {
+		width: 99%;
+		background-size: cover;
+	}
+
+	.works-box-text {
+		width: 100%;
+		opacity: 1;
+	}
+}
