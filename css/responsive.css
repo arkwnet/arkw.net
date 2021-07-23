@@ -25,6 +25,26 @@
   .topics {
     margin-bottom: 10px;
   }
+  .pr_list_box {
+    overflow: hidden;
+  }
+  .pr_list_box .topics {
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+  }
+  .pr_list_box .topics .topics_main h1, .pr_list_box .topics .topics_main p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .pr_list_box .topics .topics_main h1 {
+    white-space: nowrap;
+  }
+  .pr_list_box .topics .topics_main p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
 }
 
 @media screen and (max-width: 755px) {
@@ -39,6 +59,10 @@
   .works-box-text {
     width: 100%;
     opacity: 1;
+  }
+  .pr_list_box .topics {
+    width: 100%;
+    margin-right: 0;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
