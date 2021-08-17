@@ -14,12 +14,28 @@ a {
   color: #3f51b5;
 }
 
+h1 {
+  margin: 10px 0;
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
 h3 {
   margin: 10px 0;
   margin-top: 16px;
   font-size: 16px;
   font-weight: normal;
   border-bottom: solid 2px #3f51b5;
+}
+
+ul {
+  padding-left: 17px;
+}
+
+li {
+  padding-left: 5px;
+  line-height: 24px;
 }
 
 .wrapper {
@@ -93,6 +109,10 @@ h3 {
 .contents-history p {
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+.contents-icon {
+  margin-top: 30px;
 }
 
 .footer {
