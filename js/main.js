@@ -49,7 +49,7 @@ function createSlideShow() {
 	let output = "";
 	output += '<div class="slider">';
 	for (let i = 0; i < slideShow.length; i++) {
-		output += '<a href="' + slideShow[i].URL + '" target="blank"><div><img src="img/header/' + slideShow[i].Image + '.png"></div></a>';
+		output += '<a href="' + slideShow[i].URL + '" target="blank"><div><img src="https://arkw.work/img/header/' + slideShow[i].Image + '.png"></div></a>';
 	}
 	output += '</div>';
 	$(".navi").html(output);
