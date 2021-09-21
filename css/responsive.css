@@ -55,6 +55,8 @@
   .works-box {
     width: 99%;
     background-size: cover;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .works-box-text {
     width: 100%;

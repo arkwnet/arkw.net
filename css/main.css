@@ -267,11 +267,15 @@ p, .main_right th, .main_right td {
 }
 
 .works-box-text h1 {
+  width: 95%;
   position: absolute;
   left: 10px;
   top: 4px;
   font-size: 18px;
   font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .works-box-text h2 {
@@ -300,6 +304,22 @@ p, .main_right th, .main_right td {
   border-radius: 10px;
   font-size: 10px;
   float: left;
+}
+
+.works-box-inside div.web {
+  background-color: #673AB7;
+}
+
+.works-box-inside div.graphic {
+  background-color: #2196F3;
+}
+
+.works-box-inside div.system {
+  background-color: #607D8B;
+}
+
+.works-box-inside div.movie {
+  background-color: #f44336;
 }
 
 .footer {

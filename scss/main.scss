@@ -273,11 +273,15 @@ p, .main_right th, .main_right td {
 	transition-duration: 0.2s;
 	transition-timing-function: ease-in-out;
 	h1 {
+		width: 95%;
 		position: absolute;
 		left: 10px;
 		top: 4px;
 		font-size: 18px;
 		font-weight: normal;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 	h2 {
 		position: absolute;
@@ -304,6 +308,18 @@ p, .main_right th, .main_right td {
 		border-radius: 10px;
 		font-size: 10px;
 		float: left;
+		&.web {
+			background-color: #673AB7;
+		}
+		&.graphic {
+			background-color: #2196F3;
+		}
+		&.system {
+			background-color: #607D8B;
+		}
+		&.movie {
+			background-color: #f44336;
+		}
 	}
 }
 
