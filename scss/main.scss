@@ -30,6 +30,12 @@ p, .main_right th, .main_right td {
 	line-height: 22px;
 }
 
+span {
+	&.spec {
+		color: $gray;
+	}
+}
+
 
 // Wrapper
 
@@ -146,7 +152,10 @@ p, .main_right th, .main_right td {
 	background-color: $red;
 	color: $white;
 	span {
+		margin-bottom: 8px;
+		display: block;
 		font-size: 20px;
+		line-height: 28px;
 	}
 	p {
 		padding-left: 5px;

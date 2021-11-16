@@ -21,6 +21,10 @@ p, .main_right th, .main_right td {
   line-height: 22px;
 }
 
+span.spec {
+  color: #757575;
+}
+
 .wrapper {
   width: 1200px;
   margin: auto;
@@ -133,7 +137,10 @@ p, .main_right th, .main_right td {
 }
 
 .warn_box span {
+  margin-bottom: 8px;
+  display: block;
   font-size: 20px;
+  line-height: 28px;
 }
 
 .warn_box p {
