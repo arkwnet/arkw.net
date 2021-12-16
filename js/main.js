@@ -1,6 +1,10 @@
 let pmid = "windows";
 const slideShow = [
 	{
+		Image: "md_qubefall",
+		URL: "https://arkw.net/products/pc_game/qubefall/"
+	},
+	{
 		Image: "md_prohaya",
 		URL: "https://arkw.net/products/web/prohaya/"
 	},
