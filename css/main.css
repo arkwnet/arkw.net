@@ -7,6 +7,7 @@
 body {
   font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
+  background-color: #f5f5f5;
 }
 
 a {
@@ -164,8 +165,7 @@ span.spec {
 .topics_icon img {
   width: 80px;
   height: 80px;
-  -webkit-box-shadow: 0 1px 3px #757575;
-          box-shadow: 0 1px 3px #757575;
+  border-radius: 10px;
 }
 
 .topics_main {
@@ -249,8 +249,6 @@ span.spec {
   position: relative;
   background-color: #3f51b5;
   border-radius: 5px;
-  -webkit-box-shadow: 0 1px 3px #757575;
-          box-shadow: 0 1px 3px #757575;
   float: left;
 }
 
@@ -263,7 +261,6 @@ span.spec {
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   border-radius: 5px;
-  text-shadow: 0 0 2px #757575;
   opacity: 0;
   -webkit-transition-property: opacity;
   transition-property: opacity;
