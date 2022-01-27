@@ -14,6 +14,7 @@
 		</script>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/history.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
@@ -38,7 +39,7 @@
 		<div class="navi"></div>
 		<div class="main">
 			<div class="main_right">
-				
+
 				<!-- トピックス -->
 				<h1 class="heading">トピックス</h1>
 				<!--
@@ -77,55 +78,15 @@
 					</a>
 				</p>
 				<br>
-				
+
 				<!-- 更新情報 -->
 				<h1 class="heading">更新情報</h1>
-				<p>
-					<table>
-						<tr>
-							<th>2022/01/18</th>
-							<td>
-								トップページを更新<br>
-								ウェブアプリ「謝罪しろ！ジェネレータ」を更新
-							</td>
-						</tr>
-						<tr>
-							<th>2022/01/17</th>
-							<td>
-								ウェブアプリ「謝罪しろ！ジェネレータ」を更新
-							</td>
-						</tr>
-						<tr>
-							<th>2022/01/16</th>
-							<td>
-								ウェブアプリ「謝罪しろ！ジェネレータ」を公開
-							</td>
-						</tr>
-						<tr>
-							<th>2022/01/15</th>
-							<td>
-								トップページのプロフィールを更新<br>
-								ウェブアプリ「Ahoxa」Ver.2.0.2を公開
-							</td>
-						</tr>
-						<tr>
-							<th>2022/01/07</th>
-							<td>
-								トップページのデザインを一部変更
-							</td>
-						</tr>
-						<tr>
-							<th>2022/01/05</th>
-							<td>
-								「三菱 ミニカ H42V」のページを更新
-							</td>
-						</tr>
-					</table>
+				<p id="update_information">
 				</p>
 				<p>
 					<a href="history.html">過去の更新履歴を見る</a>
 				</p><br>
-				
+
 				<!-- プロフィール -->
 				<h1 class="heading">プロフィール</h1>
 				<p>
@@ -336,19 +297,19 @@
 						<tr><th>メインPC</th><td>HP ENVY 15 X360<span class="spec">（AMD Ryzen 5 2500U、16GB RAM、Windows 10）</span></td></tr>
 						<tr><th>サブPC</th><td>mouse C1<span class="spec">（Intel Celeron N4100、8GB RAM、Windows 10）</span><br>ASUS VivoBook E203NA<span class="spec">（Intel Celeron N3350、4GB RAM、Ubuntu 20.04）</span></td></tr>
 						<tr><th>サーバPC</th><td><a href="https://arkw.work/shiori_sv">Shiori Server</a><span class="spec">（Orange Pi Zero LTS、Allwinner H2+、256MB RAM、Armbian buster）</span><br>Akari Server<span class="spec">（Raspberry Pi 1 Model B+、Broadcom BCM2835、512MB RAM、Raspberry Pi OS bullseye）</span></td></tr>
-						<tr><th>スマートフォン</th><td>geanee ADP-503G<span class="spec">（MediaTek MT6737M、1GB RAM、Android 10 Go Edition）</span><br>HUAWEI GR5<span class="spec">（Snapdragon 615 MSM8939、2GB RAM、Android 5.1）</span></td></tr>
-						<tr><th>タブレット端末</th><td>BLUEDOT BNT-71W<span class="spec">（MediaTek MT8163V、1GB RAM、Android 5.1）</span></td></tr>
+						<tr><th>スマートフォン</th><td>geanee ADP-503G<span class="spec">（MediaTek MT6737M、1GB RAM、Android 10 Go Edition）</span><br>HUAWEI GR5<span class="spec">（Qualcomm Snapdragon 615、2GB RAM、Android 5.1）</span></td></tr>
+						<tr><th>タブレット端末</th><td>Apple iPad 第9世代 Wi-Fiモデル<span class="spec">（Apple A13 Bionic、iPadOS 15）</span><br>BLUEDOT BNT-71W<span class="spec">（MediaTek MT8163V、1GB RAM、Android 5.1）</span></td></tr>
 						<tr><th>デジタルカメラ</th><td>Canon PowerShot SX620HS</td></tr>
-						<tr><th>プリンタ</th><td>Canon iP2700<span class="spec">（4色インクジェット）</span><br>KKmoon POS-5890K<span class="spec">（58mmレシート）</span></td></tr>
+						<tr><th>プリンタ</th><td>Canon PIXUS iP2700<span class="spec">（4色インクジェット）</span><br>KKmoon POS-5890K<span class="spec">（58mmレシート）</span></td></tr>
 						<tr><th>スキャナ</th><td>Canon CanoScan LiDE 30</td></tr>
 						<tr><th>ICレコーダー</th><td>SANYO DIPLY ICR-PS004M</td></tr>
 						<tr><th>自動車</th><td><a href="https://arkw.work/h42v/">三菱 ミニカ H42V</a><span class="spec">（2008年式 ライラ 2WD 5MT）</span></td></tr>
 					</table>
 				</p>
-				
+
 			</div>
 			<div class="main_left">
-				
+
 				<!-- 製品情報 -->
 				<h1 class="heading">ソフトウェア</h1>
 				<div class="pr_menu">
@@ -358,7 +319,7 @@
 				</div>
 				<p>
 					<div class="pr_list_bg">
-						
+
 						<!-- 製品情報：Windows -->
 						<div class="pr_list" id="pr_item_windows">
 							<div class="pr_list_box">
@@ -448,7 +409,7 @@
 							<a href="https://arkw.net/products/win/old/Jikagaki_1.0.1.zip"><img src="img/pr_icon/folder-zipper.png" class="main_social">直書きランチャー Ver.1.0.1</a><br>
 							<a href="https://arkw.net/products/win/old/ShiseiChecker_1.0.zip"><img src="img/pr_icon/folder-zipper.png" class="main_social">姿勢チェッカー for Windows Ver.1.0</a><br>
 						</div>
-						
+
 						<!-- 製品情報：ウェブアプリ -->
 						<div class="pr_list" id="pr_item_web">
 							<div class="pr_list_box">
@@ -570,7 +531,7 @@
 							<a href="https://arkw.net/products/web/tools/imgsize/"><img src="https://arkw.net/products/web/tools/icon_imgsize_16.png" class="main_social">画像サイズ表示</a><br>
 							<a href="https://arkw.net/products/web/tools/dummyimg/"><img src="https://arkw.net/products/web/tools/icon_dummyimg_16.png" class="main_social">ダミー画像生成</a><br>
 						</div>
-						
+
 						<!-- 製品情報：開発者向け -->
 						<div class="pr_list" id="pr_item_dev">
 							<div class="pr_list_box">
@@ -639,10 +600,10 @@
 								</a>
 							</div>
 						</div>
-						
+
 					</div>
 				</p><br>
-				
+
 				<!-- コンテンツ -->
 				<h1 class="heading">コンテンツ</h1>
 				<p>
@@ -654,7 +615,7 @@
 					<a href="https://arkw.net/contents/bg_archive/">背景画像アーカイブ</a><br>
 					<a href="https://arkw.net/contents/axella/">Team Axella 跡地</a><br>
 				</p><br>
-				
+
 				<!-- リンク集 -->
 				<h1 class="heading">リンク集</h1>
 				<p>
