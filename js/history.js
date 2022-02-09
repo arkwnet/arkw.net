@@ -1,5 +1,11 @@
 const history = [
 	{
+		Date: "2022/02/09",
+		Content: [
+			"「Shiori Server」のページを更新"
+		]
+	},
+	{
 		Date: "2022/02/03",
 		Content: [
 			"ウェブアプリ「近鉄車番検索」を更新",
