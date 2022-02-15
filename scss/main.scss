@@ -17,7 +17,7 @@ $black: #000;
 body {
 	font-family: "Roboto", "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	font-size: 14px;
-	background-color: #f5f5f5;
+	background-color: #fff;
 }
 
 a {
@@ -170,17 +170,21 @@ span {
 // Topics
 
 .topics {
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 	overflow: hidden;
 }
 
 .topics_icon {
-	width: 100px;
+	width: 80px;
+	margin-right: 20px;
+	padding: 2px;
 	float: left;
+	box-sizing: border-box;
 	img {
 		width: 80px;
 		height: 80px;
 		border-radius: 10px;
+		box-shadow: 0 2px 3px #bdbdbd;
 	}
 }
 
@@ -281,7 +285,7 @@ span {
 	transition-duration: 0.2s;
 	transition-timing-function: ease-in-out;
 	h1 {
-		width: 95%;
+		width: 90%;
 		position: absolute;
 		left: 10px;
 		top: 4px;
@@ -305,10 +309,13 @@ span {
 }
 
 .works-box-inside {
+	width: 90%;
+	height: 16px;
 	position: absolute;
 	left: 10px;
 	top: 55px;
 	overflow: hidden;
+	overflow-x: hidden;
 	div {
 		margin-right: 6px;
 		padding: 0 6px;
