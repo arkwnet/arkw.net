@@ -111,6 +111,17 @@ li {
   margin-bottom: 15px;
 }
 
+.contents-history th {
+  padding-right: 30px;
+  line-height: 22px;
+  vertical-align: top;
+}
+
+.contents-history td {
+  padding-bottom: 5px;
+  line-height: 22px;
+}
+
 .contents-icon {
   margin-top: 30px;
 }
@@ -131,5 +142,9 @@ li {
   margin: 10px 0;
   font-size: 14px;
   font-weight: bold;
+}
+
+#update_information {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=minipage.css.map */

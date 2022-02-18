@@ -105,6 +105,15 @@ li {
 		margin-top: 10px;
 		margin-bottom: 15px;
 	}
+	th {
+		padding-right: 30px;
+		line-height: 22px;
+		vertical-align: top;
+	}
+	td {
+		padding-bottom: 5px;
+		line-height: 22px;
+	}
 }
 
 .contents-icon {
@@ -125,4 +134,8 @@ li {
 		font-size: 14px;
 		font-weight: bold;
 	}
+}
+
+#update_information {
+	margin-top: 20px;
 }
