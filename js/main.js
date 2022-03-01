@@ -1,6 +1,10 @@
 let pmid = "windows";
 const slideShow = [
 	{
+		Image: "md_lab",
+		URL: ""
+	},
+	{
 		Image: "md_qubefall",
 		URL: "https://arkw.net/products/pc_game/qubefall/"
 	},
@@ -39,7 +43,11 @@ function createSlideShow() {
 	let output = "";
 	output += '<div class="slider">';
 	for (let i = 0; i < slideShow.length; i++) {
-		output += '<a href="' + slideShow[i].URL + '" target="blank"><div><img src="img/header/' + slideShow[i].Image + '.png"></div></a>';
+		if (slideShow[i].URL == "") {
+			output += '<div><img src="img/header/' + slideShow[i].Image + '.png"></div>';
+		} else {
+			output += '<a href="' + slideShow[i].URL + '" target="blank"><div><img src="img/header/' + slideShow[i].Image + '.png"></div></a>';
+		}
 	}
 	output += '</div>';
 	$(".navi").html(output);
