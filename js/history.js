@@ -1,5 +1,13 @@
 ﻿const history = [
   {
+    Date: "2022/03/06",
+    Content: ["「Shiori Server Status」のページを公開"],
+  },
+  {
+    Date: "2022/03/05",
+    Content: ["「三菱 ミニカ H42V」のページを更新"],
+  },
+  {
     Date: "2022/03/04",
     Content: [
       "トップページのプロフィールを更新",
