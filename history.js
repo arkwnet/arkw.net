@@ -1,5 +1,9 @@
 const history = [
   {
+    Date: "2022/03/30",
+    Content: ["「三菱 ミニカ H42V」のページを更新"],
+  },
+  {
     Date: "2022/03/22",
     Content: ["ウェブアプリ「Ahoxa」Ver.2.1.0を公開"],
   },
