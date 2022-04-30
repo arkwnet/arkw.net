@@ -4,8 +4,9 @@
   padding: 0;
 }
 
-body, table {
-  font-family: "Roboto", "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+body,
+table {
+  font-family: "Roboto", "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
   font-size: 14px;
   line-height: 20px;
 }

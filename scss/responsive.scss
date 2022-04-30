@@ -1,6 +1,6 @@
 // Responsive CSS
 
-@media screen and ( max-width: 1280px ){
+@media screen and (max-width: 1280px) {
 	.navi {
 		width: 100%;
 		box-sizing: border-box;
@@ -8,21 +8,24 @@
 	}
 }
 
-@media screen and ( max-width: 1240px ){
+@media screen and (max-width: 1240px) {
 	.wrapper {
 		width: 100%;
 	}
-	
-	.header, .footer {
+
+	.header,
+	.footer {
 		padding-left: 20px;
 	}
-	
-	.main, .main_left, .main_right {
+
+	.main,
+	.main_left,
+	.main_right {
 		width: 100%;
 		padding-left: 10px;
 		padding-right: 30px;
 	}
-	
+
 	.main_right {
 		float: left;
 	}
@@ -38,7 +41,8 @@
 			margin-right: 5%;
 			float: left;
 			.topics_main {
-				h1, p {
+				h1,
+				p {
 					overflow: hidden;
 					text-overflow: ellipsis;
 				}
@@ -55,7 +59,7 @@
 	}
 }
 
-@media screen and ( max-width: 755px ){
+@media screen and (max-width: 755px) {
 	.works {
 		height: 300px;
 		overflow-y: scroll;

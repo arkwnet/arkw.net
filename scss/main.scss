@@ -6,7 +6,6 @@ $red: #ef5350;
 $gray: #757575;
 $black: #000;
 
-
 // Common
 
 * {
@@ -15,7 +14,9 @@ $black: #000;
 }
 
 body {
-	font-family: "Roboto", "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-family: "Roboto", "Noto Sans JP", "メイリオ", Meiryo,
+		"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック",
+		"MS PGothic", sans-serif;
 	font-size: 14px;
 	background-color: #fff;
 }
@@ -24,16 +25,18 @@ a {
 	color: $arkw-color;
 }
 
-p, .main_right th, .main_right td {
+p,
+.main_right th,
+.main_right td {
 	line-height: 22px;
 }
 
 span {
 	&.spec {
+		padding-left: 8px;
 		color: $gray;
 	}
 }
-
 
 // Wrapper
 
@@ -42,7 +45,6 @@ span {
 	margin: auto;
 	overflow: hidden;
 }
-
 
 // Header
 
@@ -59,7 +61,6 @@ span {
 	}
 }
 
-
 // Navi
 
 .navi {
@@ -72,7 +73,6 @@ span {
 .slick-slider img {
 	width: 100%;
 }
-
 
 // Main
 
@@ -141,7 +141,6 @@ span {
 	padding-bottom: 2px;
 }
 
-
 // Box
 
 .warn_box {
@@ -162,7 +161,6 @@ span {
 		color: $white;
 	}
 }
-
 
 // Topics
 
@@ -205,7 +203,6 @@ span {
 	}
 }
 
-
 // Products
 
 .pr_menu {
@@ -228,7 +225,7 @@ span {
 .pr_menu_selected {
 	background-color: $arkw-color;
 	color: $white;
-	transition-property: background-color,color,text-shadow;
+	transition-property: background-color, color, text-shadow;
 	transition-duration: 0.1s;
 	transition-timing-function: ease-in-out;
 }
@@ -237,10 +234,10 @@ span {
 	margin: 10px 0;
 }
 
-#pr_item_web, #pr_item_dev {
+#pr_item_web,
+#pr_item_dev {
 	display: none;
 }
-
 
 // Works
 
@@ -301,7 +298,8 @@ span {
 	}
 }
 
-.works a:hover, .works-box-text:hover {
+.works a:hover,
+.works-box-text:hover {
 	opacity: 1;
 }
 
@@ -321,20 +319,19 @@ span {
 		font-size: 10px;
 		float: left;
 		&.web {
-			background-color: #673AB7;
+			background-color: #673ab7;
 		}
 		&.graphic {
-			background-color: #2196F3;
+			background-color: #2196f3;
 		}
 		&.system {
-			background-color: #607D8B;
+			background-color: #607d8b;
 		}
 		&.movie {
 			background-color: #f44336;
 		}
 	}
 }
-
 
 // Footer
 
@@ -353,7 +350,6 @@ span {
 		color: $white;
 	}
 }
-
 
 // Others
 

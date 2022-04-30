@@ -1,6 +1,6 @@
-window.onload = function() {
+window.onload = function () {
 	createUpdateInformation();
-}
+};
 
 function createUpdateInformation() {
 	let output = "";
@@ -10,7 +10,7 @@ function createUpdateInformation() {
 		for (let j = 0; j < history[i].Content.length; j++) {
 			output += history[i].Content[j] + "<br>";
 		}
-		output += "</td></tr>"
+		output += "</td></tr>";
 	}
 	output += "</table>";
 	$("#update_information").html(output);

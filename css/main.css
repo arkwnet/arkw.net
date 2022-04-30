@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Roboto", "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Roboto", "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
   background-color: #fff;
 }
@@ -14,11 +14,14 @@ a {
   color: #3f51b5;
 }
 
-p, .main_right th, .main_right td {
+p,
+.main_right th,
+.main_right td {
   line-height: 22px;
 }
 
 span.spec {
+  padding-left: 8px;
   color: #757575;
 }
 
@@ -213,8 +216,8 @@ span.spec {
 .pr_menu_selected {
   background-color: #3f51b5;
   color: #fff;
-  -webkit-transition-property: background-color,color,text-shadow;
-  transition-property: background-color,color,text-shadow;
+  -webkit-transition-property: background-color, color, text-shadow;
+  transition-property: background-color, color, text-shadow;
   -webkit-transition-duration: 0.1s;
           transition-duration: 0.1s;
   -webkit-transition-timing-function: ease-in-out;
@@ -225,7 +228,8 @@ span.spec {
   margin: 10px 0;
 }
 
-#pr_item_web, #pr_item_dev {
+#pr_item_web,
+#pr_item_dev {
   display: none;
 }
 
@@ -292,7 +296,8 @@ span.spec {
   font-weight: normal;
 }
 
-.works a:hover, .works-box-text:hover {
+.works a:hover,
+.works-box-text:hover {
   opacity: 1;
 }
 
@@ -316,15 +321,15 @@ span.spec {
 }
 
 .works-box-inside div.web {
-  background-color: #673AB7;
+  background-color: #673ab7;
 }
 
 .works-box-inside div.graphic {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .works-box-inside div.system {
-  background-color: #607D8B;
+  background-color: #607d8b;
 }
 
 .works-box-inside div.movie {
