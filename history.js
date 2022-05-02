@@ -1,5 +1,9 @@
 const history = [
   {
+    Date: "2022/05/02",
+    Content: ["「三菱 ミニカ H42V」のページを更新"],
+  },
+  {
     Date: "2022/04/30",
     Content: ["トップページのプロフィールを更新"],
   },
@@ -12,7 +16,7 @@ const history = [
   },
   {
     Date: "2022/04/20",
-    Content: ["ウェブアプリ「プロ生早押しクイズ」 Ver.1.6.0 に更新"],
+    Content: ["ウェブアプリ「プロ生早押しクイズ」をVersion 1.6.0に更新"],
   },
   {
     Date: "2022/04/01",
@@ -24,7 +28,7 @@ const history = [
   },
   {
     Date: "2022/03/22",
-    Content: ["ウェブアプリ「Ahoxa」Ver.2.1.0を公開"],
+    Content: ["ウェブアプリ「Ahoxa」Version 2.1.0を公開"],
   },
   {
     Date: "2022/03/21",
@@ -32,7 +36,7 @@ const history = [
   },
   {
     Date: "2022/03/16",
-    Content: ["「Shiori Server Status」Ver.1.1.1を公開"],
+    Content: ["「Shiori Server Status」Version 1.1.1を公開"],
   },
   {
     Date: "2022/03/09",
@@ -40,7 +44,7 @@ const history = [
   },
   {
     Date: "2022/03/07",
-    Content: ["「Shiori Server Status」Ver.1.1を公開"],
+    Content: ["「Shiori Server Status」Version 1.1を公開"],
   },
   {
     Date: "2022/03/06",
@@ -54,7 +58,7 @@ const history = [
     Date: "2022/03/04",
     Content: [
       "トップページのプロフィールを更新",
-      "Windows向けフリーソフトウェア「ショートタイムメモ」Ver.0.3を公開",
+      "Windows向けフリーソフトウェア「ショートタイムメモ」Version 0.3を公開",
     ],
   },
   {
@@ -83,14 +87,14 @@ const history = [
   {
     Date: "2022/02/22",
     Content: [
-      "Windows向けフリーゲーム「QubeFall」Ver.1.1.2を公開",
+      "Windows向けフリーゲーム「QubeFall」Version 1.1.2を公開",
       "「三菱 ミニカ H42V」のページを更新",
     ],
   },
   {
     Date: "2022/02/21",
     Content: [
-      "Windows向けフリーソフトウェア「ショートタイムメモ」Ver.0.2を公開",
+      "Windows向けフリーソフトウェア「ショートタイムメモ」Version 0.2を公開",
     ],
   },
   {
@@ -114,7 +118,7 @@ const history = [
   {
     Date: "2022/02/14",
     Content: [
-      "Windows向けフリーソフトウェア「ショートタイムメモ」Ver.0.1.1を公開",
+      "Windows向けフリーソフトウェア「ショートタイムメモ」Version 0.1.1を公開",
     ],
   },
   {
@@ -124,7 +128,7 @@ const history = [
   {
     Date: "2022/02/07",
     Content: [
-      "Windows向けフリーソフトウェア「ショートタイムメモ」Ver.0.1を公開",
+      "Windows向けフリーソフトウェア「ショートタイムメモ」Version 0.1を公開",
     ],
   },
   {
@@ -144,7 +148,7 @@ const history = [
   },
   {
     Date: "2022/01/24",
-    Content: ["ウェブアプリ「Ahoxa」Ver.2.0.3を公開"],
+    Content: ["ウェブアプリ「Ahoxa」Version 2.0.3を公開"],
   },
   {
     Date: "2022/01/21",
@@ -169,7 +173,7 @@ const history = [
     Date: "2022/01/15",
     Content: [
       "トップページのプロフィールを更新",
-      "ウェブアプリ「Ahoxa」Ver.2.0.2を公開",
+      "ウェブアプリ「Ahoxa」Version 2.0.2を公開",
     ],
   },
   {
@@ -183,7 +187,7 @@ const history = [
   {
     Date: "2022/01/04",
     Content: [
-      "ウェブアプリ「プロ生時計」Ver.1.0.0を公開",
+      "ウェブアプリ「プロ生時計」Version 1.0.0を公開",
       "ウェブアプリ「プロ生時計」公式ウェブサイトを開設",
     ],
   },
@@ -191,12 +195,12 @@ const history = [
     Date: "2022/01/01",
     Content: [
       "あけましておめでとうございます。今年もArakawaをよろしくお願い致します。",
-      "ウェブアプリ「Ahoxa」Ver.2.0.1を公開",
+      "ウェブアプリ「Ahoxa」Version 2.0.1を公開",
     ],
   },
   {
     Date: "2021/12/30",
-    Content: ["ウェブアプリ「Ahoxa」Ver.2.0.0を公開"],
+    Content: ["ウェブアプリ「Ahoxa」Version 2.0.0を公開"],
   },
   {
     Date: "2021/12/26",
@@ -216,13 +220,13 @@ const history = [
   {
     Date: "2021/11/26",
     Content: [
-      "ウェブアプリ「Ahoxa」 Ver.1.5.2を公開",
+      "ウェブアプリ「Ahoxa」Version 1.5.2を公開",
       "「Shiori Server」のページを更新",
     ],
   },
   {
     Date: "2021/11/23",
-    Content: ["ウェブアプリ「Ahoxa」 Ver.1.5.1を公開"],
+    Content: ["ウェブアプリ「Ahoxa」Version 1.5.1を公開"],
   },
   {
     Date: "2021/11/20",
@@ -235,8 +239,8 @@ const history = [
   {
     Date: "2021/11/16",
     Content: [
-      "Windows向けフリーゲーム「QubeFall」 Ver.1.1.1を公開",
-      "ウェブアプリ「Ahoxa」 Ver.1.5.0を公開",
+      "Windows向けフリーゲーム「QubeFall」Version 1.1.1を公開",
+      "ウェブアプリ「Ahoxa」Version 1.5.0を公開",
     ],
   },
   {
@@ -277,7 +281,7 @@ const history = [
   },
   {
     Date: "2021/10/30",
-    Content: ["Windows向けフリーゲーム「QubeFall」 Ver.1.0 を公開"],
+    Content: ["Windows向けフリーゲーム「QubeFall」Version 1.0を公開"],
   },
   {
     Date: "2021/10/22",
@@ -293,7 +297,7 @@ const history = [
   },
   {
     Date: "2021/10/10",
-    Content: ["ウェブアプリ「Ahoxa」 Ver.1.4.2 を公開"],
+    Content: ["ウェブアプリ「Ahoxa」Version 1.4.2を公開"],
   },
   {
     Date: "2021/10/09",
@@ -302,13 +306,13 @@ const history = [
   {
     Date: "2021/10/08",
     Content: [
-      "ウェブアプリ「Ahoxa」 Ver.1.4.1 を公開",
-      "JavaScriptライブラリ「AoiEngine」 Ver.1.2 を公開",
+      "ウェブアプリ「Ahoxa」Version 1.4.1を公開",
+      "JavaScriptライブラリ「AoiEngine」Version 1.2を公開",
     ],
   },
   {
     Date: "2021/10/06",
-    Content: ["ウェブアプリ「Ahoxa」 Ver.1.4.0 を公開"],
+    Content: ["ウェブアプリ「Ahoxa」Version 1.4.0を公開"],
   },
   {
     Date: "2021/09/25",
@@ -317,14 +321,14 @@ const history = [
   {
     Date: "2021/09/23",
     Content: [
-      "JavaScriptライブラリ「AoiEngine」 Ver.1.1 を公開",
+      "JavaScriptライブラリ「AoiEngine」Version 1.1を公開",
       "ウェブアプリ「Arakawa Web Tools ダミー画像生成」を更新",
     ],
   },
   {
     Date: "2021/09/21",
     Content: [
-      "ウェブアプリ「Ahoxa」 Ver.1.3 を公開",
+      "ウェブアプリ「Ahoxa」Version 1.3.0を公開",
       "ウェブアプリ「近鉄車番検索」を更新",
       "トップページを更新",
     ],
@@ -351,11 +355,11 @@ const history = [
   },
   {
     Date: "2021/09/02",
-    Content: ["開発者向けツール「Simplified CMS 2」 Ver.1.0 を公開"],
+    Content: ["開発者向けツール「Simplified CMS 2」Version 1.0を公開"],
   },
   {
     Date: "2021/08/26",
-    Content: ["トップページを更新", "ウェブアプリ「Ahoxa」 Ver.1.2 を公開"],
+    Content: ["トップページを更新", "ウェブアプリ「Ahoxa」Version 1.2.0を公開"],
   },
   {
     Date: "2021/08/23",
@@ -363,7 +367,7 @@ const history = [
   },
   {
     Date: "2021/08/17",
-    Content: ["ウェブアプリ「Ahoxa」Ver.1.1 を公開"],
+    Content: ["ウェブアプリ「Ahoxa」Version 1.1.0を公開"],
   },
   {
     Date: "2021/08/13",
@@ -376,13 +380,13 @@ const history = [
   {
     Date: "2021/08/05",
     Content: [
-      "ウェブアプリ「Ahoxa」Ver.1.0 を公開",
+      "ウェブアプリ「Ahoxa」Version 1.0.0を公開",
       "ウェブアプリ「Ahoxa」公式ウェブサイトを開設",
     ],
   },
   {
     Date: "2021/07/31",
-    Content: ["ウェブアプリ「プロ生早押しクイズ」 Ver.1.5.0 に更新"],
+    Content: ["ウェブアプリ「プロ生早押しクイズ」をVersion 1.5.0に更新"],
   },
   {
     Date: "2021/07/26",
@@ -412,7 +416,7 @@ const history = [
   },
   {
     Date: "2021/07/12",
-    Content: ["開発者向けツール「Simplified CMS」Ver.1.0 を公開"],
+    Content: ["開発者向けツール「Simplified CMS」Version 1.0を公開"],
   },
   {
     Date: "2021/07/09",
@@ -421,7 +425,7 @@ const history = [
   {
     Date: "2021/07/06",
     Content: [
-      "JavaScriptライブラリ「AoiEngine」Ver.1.0 を公開",
+      "JavaScriptライブラリ「AoiEngine」Version 1.0を公開",
       "JavaScriptライブラリ「AoiEngine」公式ウェブサイトを開設",
     ],
   },
@@ -481,7 +485,7 @@ const history = [
   {
     Date: "2021/05/05",
     Content: [
-      "ウェブアプリ「プロ生早押しクイズ」 Ver.1.4.1 に更新",
+      "ウェブアプリ「プロ生早押しクイズ」をVersion 1.4.1に更新",
       "トップページを更新",
     ],
   },
@@ -510,30 +514,32 @@ const history = [
   {
     Date: "2021/04/24",
     Content: [
-      "ウェブアプリ「プロ生早押しクイズ」 Ver.1.4.0 に更新",
+      "ウェブアプリ「プロ生早押しクイズ」をVersion 1.4.0に更新",
       "トップページを更新",
       "「更新履歴」ページのデザインを一部変更",
     ],
   },
   {
     Date: "2021/04/21",
-    Content: ["ウェブアプリ「プロ生早押しクイズ」 Ver.1.3.0 に更新"],
+    Content: ["ウェブアプリ「プロ生早押しクイズ」をVersion 1.3.0に更新"],
   },
   {
     Date: "2021/04/18",
-    Content: ["Windows用フリーソフトウェア「コピペレコーダー」 Ver.1.0 を公開"],
+    Content: [
+      "Windows用フリーソフトウェア「コピペレコーダー」Version 1.0を公開",
+    ],
   },
   {
     Date: "2021/04/02",
-    Content: ["ウェブアプリ「プロ生早押しクイズ」 Ver.1.2.1 に更新"],
+    Content: ["ウェブアプリ「プロ生早押しクイズ」をVersion 1.2.1に更新"],
   },
   {
     Date: "2021/04/01",
-    Content: ["ウェブアプリ「プロ生早押しクイズ」 Ver.1.2.0 に更新"],
+    Content: ["ウェブアプリ「プロ生早押しクイズ」をVersion 1.2.0に更新"],
   },
   {
     Date: "2021/03/31",
-    Content: ["ウェブアプリ「プロ生早押しクイズ」 Ver.1.1.0 に更新"],
+    Content: ["ウェブアプリ「プロ生早押しクイズ」をVersion 1.1.0に更新"],
   },
   {
     Date: "2021/03/22",
@@ -559,11 +565,11 @@ const history = [
   },
   {
     Date: "2021/03/01",
-    Content: ["JavaScriptライブラリ「Katamuki.js」 Ver.2.0 を公開"],
+    Content: ["JavaScriptライブラリ「Katamuki.js」Version 2.0を公開"],
   },
   {
     Date: "2021/02/26",
-    Content: ["Windows用フリーソフトウェア「WinSmartWatch」 Ver.0.2 を公開"],
+    Content: ["Windows用フリーソフトウェア「WinSmartWatch」Version 0.2を公開"],
   },
   {
     Date: "2021/02/24",
@@ -605,11 +611,11 @@ const history = [
   },
   {
     Date: "2020/12/11",
-    Content: ["ウェブアプリ「教えて！ハカセ メーカー」を更新"],
+    Content: ["ウェブアプリ「教えて! ハカセ ジェネレータ」を更新"],
   },
   {
     Date: "2020/12/10",
-    Content: ["ウェブアプリ「教えて！ハカセ メーカー」を公開"],
+    Content: ["ウェブアプリ「教えて! ハカセ ジェネレータ」を公開"],
   },
   {
     Date: "2020/11/22",
@@ -621,19 +627,25 @@ const history = [
   },
   {
     Date: "2020/10/31",
-    Content: ["Windows用フリーソフトウェア「WinSmartWatch」 Ver.0.1.3 を公開"],
+    Content: [
+      "Windows用フリーソフトウェア「WinSmartWatch」Version 0.1.3を公開",
+    ],
   },
   {
     Date: "2020/10/25",
-    Content: ["Windows用フリーソフトウェア「WinSmartWatch」 Ver.0.1.2 を公開"],
+    Content: [
+      "Windows用フリーソフトウェア「WinSmartWatch」Version 0.1.2を公開",
+    ],
   },
   {
     Date: "2020/10/18",
-    Content: ["Windows用フリーソフトウェア「WinSmartWatch」 Ver.0.1.1 を公開"],
+    Content: [
+      "Windows用フリーソフトウェア「WinSmartWatch」Version 0.1.1を公開",
+    ],
   },
   {
     Date: "2020/10/12",
-    Content: ["Windows用フリーソフトウェア「はじめての写真管理2」 開発終了"],
+    Content: ["Windows用フリーソフトウェア「はじめての写真管理2」開発終了"],
   },
   {
     Date: "2020/09/16",
@@ -646,7 +658,7 @@ const history = [
   {
     Date: "2020/08/15",
     Content: [
-      "Windows用フリーソフトウェア「はじめての写真管理S」 Ver.1.2.1 を公開",
+      "Windows用フリーソフトウェア「はじめての写真管理S」Version 1.2.1を公開",
     ],
   },
   {
@@ -673,7 +685,7 @@ const history = [
     Date: "2020/05/11",
     Content: [
       "トップページ「製品情報」にリンクを追加",
-      "PCソフトウェア「Nagaharu」 1.0.3 Stable を公開",
+      "PCソフトウェア「Nagaharu」Version 1.0.3 Stableを公開",
     ],
   },
   {
@@ -690,7 +702,7 @@ const history = [
   {
     Date: "2020/05/01",
     Content: [
-      "「Shiori Server（自宅サーバ）」の運用を開始",
+      "「Shiori Server (自宅サーバ)」の運用を開始",
       "新しいウェブサイトの試験運用を開始",
     ],
   },
@@ -736,7 +748,7 @@ const history = [
   {
     Date: "2019/10/30",
     Content: [
-      "Windows向けフリーソフトウェア「タイピングファクトリー」 Ver.1.0 を公開",
+      "Windows向けフリーソフトウェア「タイピングファクトリー」Version 1.0 を公開",
     ],
   },
   {
@@ -752,7 +764,7 @@ const history = [
   },
   {
     Date: "2019/05/16",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.2Beta3 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.2Beta3を公開"],
   },
   {
     Date: "2019/05/01",
@@ -764,7 +776,7 @@ const history = [
   },
   {
     Date: "2019/04/26",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.2Beta2 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.2Beta2を公開"],
   },
   {
     Date: "2019/04/02",
@@ -791,21 +803,21 @@ const history = [
   },
   {
     Date: "2019/02/23",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.2Beta1 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.2Beta1を公開"],
   },
   {
     Date: "2019/01/21",
     Content: [
-      "Windows向けフリーソフトウェア「はじめての写真管理S」 Ver.1.2 を公開",
+      "Windows向けフリーソフトウェア「はじめての写真管理S」Version 1.2を公開",
     ],
   },
   {
     Date: "2019/01/14",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.1 (Stable) を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.1 (Stable)を公開"],
   },
   {
     Date: "2019/01/09",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.1Beta3 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.1Beta3を公開"],
   },
   {
     Date: "2019/01/01",
@@ -816,7 +828,7 @@ const history = [
   {
     Date: "2018/12/27",
     Content: [
-      "Windows向けフリーソフトウェア「はじめての写真管理S」 Ver.1.1 を公開",
+      "Windows向けフリーソフトウェア「はじめての写真管理S」Version 1.1を公開",
     ],
   },
   {
@@ -833,7 +845,7 @@ const history = [
   },
   {
     Date: "2018/10/30",
-    Content: ["Windows向けフリーソフトウェア「TriEditor LE」 Ver.1.1 を公開"],
+    Content: ["Windows向けフリーソフトウェア「TriEditor LE」Version 1.1を公開"],
   },
   {
     Date: "2018/10/17",
@@ -842,7 +854,7 @@ const history = [
   {
     Date: "2018/10/08",
     Content: [
-      "ウェブサイト用テンプレート「Arakawa Template」 Ver.1.1Beta2 を公開",
+      "ウェブサイト用テンプレート「Arakawa Template」Version 1.1Beta2を公開",
     ],
   },
   {
@@ -855,7 +867,7 @@ const history = [
   {
     Date: "2018/10/06",
     Content: [
-      "Windows向けフリーソフトウェア「はじめての写真管理S」 Ver.1.0 を公開",
+      "Windows向けフリーソフトウェア「はじめての写真管理S」Version 1.0を公開",
     ],
   },
   {
@@ -865,7 +877,7 @@ const history = [
   {
     Date: "2018/09/16",
     Content: [
-      "Windows向けフリーソフトウェア「TriEditor LE」 Ver.1.0 を公開",
+      "Windows向けフリーソフトウェア「TriEditor LE」Version 1.0を公開",
       "「製品情報 (Windows向けソフトウェア)」のページを更新",
       "「制作実績 (ウェブサイト)」のページを更新",
       "「制作実績 (グラフィックデザイン)」のページを更新",
@@ -873,12 +885,12 @@ const history = [
   },
   {
     Date: "2018/09/14",
-    Content: ["主要なページにGoogleアナリティクス（アクセス解析）を設置"],
+    Content: ["主要なページにGoogleアナリティクス (アクセス解析) を設置"],
   },
   {
     Date: "2018/08/22",
     Content: [
-      "「製品情報（ウェブアプリ）」のページを更新",
+      "「製品情報 (ウェブアプリ)」のページを更新",
       "「支離滅裂な思考・発言ジェネレーター」のページを更新",
     ],
   },
@@ -889,7 +901,7 @@ const history = [
   {
     Date: "2018/08/14",
     Content: [
-      "「製品情報（Windows向けソフトウェア）」のページを更新",
+      "「製品情報 (Windows向けソフトウェア)」のページを更新",
       "「はじめての写真管理S」のページを更新",
     ],
   },
@@ -936,7 +948,7 @@ const history = [
   {
     Date: "2018/03/29",
     Content: [
-      "Windows向けフリーソフトウェア「はじめての写真管理2」 Ver.1.1.1 を公開",
+      "Windows向けフリーソフトウェア「はじめての写真管理2」Version 1.2.1を公開",
       "「メールを送りたい」のページを追加",
     ],
   },
@@ -950,28 +962,28 @@ const history = [
   },
   {
     Date: "2018/03/02",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.1Beta1 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.1Beta1を公開"],
   },
   {
     Date: "2018/02/24",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.0 (Stable) を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.0 (Stable)を公開"],
   },
   {
     Date: "2018/02/18",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.0Beta6 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.0Beta6を公開"],
   },
   {
     Date: "2018/02/17",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.0Beta5 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.0Beta5を公開"],
   },
   {
     Date: "2018/02/10",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.0Beta4 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.0Beta4を公開"],
   },
   {
-    Date: "2018/02/04",
+    Date: "2018/02/03",
     Content: [
-      "Windows向けフリーソフトウェア「はじめての写真管理2」 Ver.1.1 を公開",
+      "Windows向けフリーソフトウェア「はじめての写真管理2」Version 1.2を公開",
     ],
   },
   {
@@ -984,11 +996,11 @@ const history = [
   },
   {
     Date: "2018/01/09",
-    Content: ["JavaScriptライブラリ「Katamuki.js」 Ver.1.2 を公開"],
+    Content: ["JavaScriptライブラリ「Katamuki.js」Version 1.2を公開"],
   },
   {
     Date: "2018/01/08",
-    Content: ["JavaScriptライブラリ「Katamuki.js」 Ver.1.1 を公開"],
+    Content: ["JavaScriptライブラリ「Katamuki.js」Version 1.1を公開"],
   },
   {
     Date: "2018/01/01",
@@ -998,25 +1010,66 @@ const history = [
   },
   {
     Date: "2017/10/20",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.0Beta3 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.0Beta3を公開"],
   },
   {
     Date: "2017/09/19",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.0Beta2 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.0Beta2を公開"],
   },
   {
     Date: "2017/09/18",
-    Content: ["CSSテンプレート「Arakawa Template」 Ver.1.0Beta1 を公開"],
+    Content: ["CSSテンプレート「Arakawa Template」Version 1.0Beta1を公開"],
+  },
+  {
+    Date: "2017/08/01",
+    Content: [
+      "Windows向けフリーソフトウェア「はじめての写真管理2」Version 1.1を公開",
+    ],
+  },
+  {
+    Date: "2017/03/06",
+    Content: [
+      "Windows向けフリーソフトウェア「はじめての写真管理2」Version 1.0.1を公開",
+    ],
+  },
+  {
+    Date: "2017/02/13",
+    Content: [
+      "Windows向けフリーソフトウェア「はじめての写真管理2」Version 1.0を公開",
+    ],
   },
   {
     Date: "2017/01/21",
-    Content: ["JavaScriptライブラリ「Katamuki.js」 Ver.1.0 を公開"],
+    Content: [
+      "PCソフトウェア「Nagaharu」Version 1.0.2 Stableを公開",
+      "JavaScriptライブラリ「Katamuki.js」Version 1.0を公開",
+    ],
   },
   {
     Date: "2017/01/01",
     Content: [
       "あけましておめでとうございます。今年もArakawaをよろしくお願い致します。",
     ],
+  },
+  {
+    Date: "2016/12/29",
+    Content: ["PCソフトウェア「Nagaharu」Version 1.0.1 Stableを公開"],
+  },
+  {
+    Date: "2016/11/27",
+    Content: ["PCソフトウェア「Nagaharu」Version 1.0 Stableを公開"],
+  },
+  {
+    Date: "2016/11/23",
+    Content: ["PCソフトウェア「Nagaharu」Version 1.0Beta5を公開"],
+  },
+  {
+    Date: "2016/11/18",
+    Content: ["PCソフトウェア「Nagaharu」Version 1.0Beta4を公開"],
+  },
+  {
+    Date: "2016/11/14",
+    Content: ["PCソフトウェア「Nagaharu」Version 1.0Beta3を公開"],
   },
   {
     Date: "2016/04/29",
