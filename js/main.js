@@ -60,17 +60,23 @@ function createSlideShow() {
 }
 
 function createUpdateInformation() {
-	let output = "";
-	output += "<table>";
-	for (let i = 0; i < 5; i++) {
-		output += "<tr><th>" + history[i].Date + "</th><td>";
-		for (let j = 0; j < history[i].Content.length; j++) {
-			output += history[i].Content[j] + "<br>";
+	$.ajax({
+		url: "history.json",
+		type: "GET",
+		dataType: "json",
+	}).done(function (data) {
+		let output = "";
+		output += "<table>";
+		for (let i = 0; i < 5; i++) {
+			output += "<tr><th>" + data[i]["Date"] + "</th><td>";
+			for (let j = 0; j < data[i]["Content"].length; j++) {
+				output += data[i]["Content"][j] + "<br>";
+			}
+			output += "</td></tr>";
 		}
-		output += "</td></tr>";
-	}
-	output += "</table>";
-	$("#update_information").html(output);
+		output += "</table>";
+		$("#update_information").html(output);
+	});
 }
 
 function changeProductsMenu(a) {
